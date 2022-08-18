@@ -14,4 +14,10 @@ public class KafkaTopicConfig {
                 .build();
     }
 
+    @Bean
+    public NewTopic myTopicJson(){
+        return TopicBuilder.name("muratkistan_json")
+                .build();
+    }
+
 }
